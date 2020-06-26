@@ -1,0 +1,43 @@
+# maven ignore
+target/
+catalina.base_IS_UNDEFINED/
+# kdiff3 ignore
+*.orig
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+
+
+
+# temp ignore
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+# package ignore (optional)
+*.zip
+*.tar
+*.tar.gz
+*.jar
+
+# user define
+*/build
+build/
+*/logDir_IS_UNDEFINED
+logDir_IS_UNDEFINED/
+out/
+.gradle/
+*IS_UNDEFINED/
